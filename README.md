@@ -15,3 +15,7 @@ ppt转pdf
 ### GA_Visual
 
 遗传算法代码及其可视化
+
+### SA_Compare_map&vectorized
+
+模拟退火算法代码及可视化及map和np.vectorized速度比较
