@@ -18,14 +18,16 @@ X_BOUND = [0, 5]
 
 
 def F(x):
-    # 目的：找到下面这个函数的最大值
+    # 目的：找到下面这个函数的最值
     return np.sin(10 * x) * x + np.cos(2 * x) * x
 
 
 def get_fitness(pred):
     # 函数中每个值减去最小值（表现最差的个体），加上允许误差值0.001
-    return pred + 1e-3 - np.min(pred)
-
+    # 找到函数中的最大值
+    return pred - np.min(pred) + 1e-3
+    # 找到函数中的最小值
+    # return np.max(pred) - pred + 1e-3
 
 def translateDNA(pop):
     # 将个体中DNA转换为所需的数据（二进制换为十进制），并且归一化到指定范围（这里是[0，5]）
