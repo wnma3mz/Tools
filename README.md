@@ -19,3 +19,7 @@ ppt转pdf
 ### SA_Compare_map&vectorized
 
 模拟退火算法代码及可视化及map和np.vectorized速度比较
+
+### export_mysql_data
+
+使用`pymysql`和`xlwt`导出mysql中的数据到excel中
