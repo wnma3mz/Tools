@@ -23,3 +23,7 @@ ppt转pdf
 ### export_mysql_data
 
 使用`pymysql`和`xlwt`导出mysql中的数据到excel中
+
+### TS
+
+禁忌搜索算法实例
