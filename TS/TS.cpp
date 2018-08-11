@@ -4,7 +4,7 @@ const int     CityNum = 4;
 const int 	  MAX_GEN = 8;
 const int NeighborNum = 3;
 using namespace std;
-
+// 禁忌表 
 double **tabu_lst;
 double D[CityNum][CityNum] = {{0, 1, 0.5, 1}, {1, 0, 1, 1}, {1.5, 5, 0, 1}, {1, 1, 1, 0}};
 
@@ -91,8 +91,8 @@ int main() {
 		}
 		print_lst(lst_tmp);
 		// 根据限定领域的范围（步长nn）来调整路径
-		for (i = 1; i < CityNum && nn < 3; i++) {
-			for (j = i+1; j < CityNum && nn < 3; j++) {
+		for (i = 1; i < CityNum && nn < NeighborNum; i++) {
+			for (j = i+1; j < CityNum && nn < NeighborNum; j++) {
 				swap(lst_tmp[i], lst_tmp[j]);
 				// 如果不在禁忌表中，进行计算如果小于当前总值，就进行替换，并替换路径
 				if (!in_TabuList(lst_tmp)) {
