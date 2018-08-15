@@ -43,3 +43,4 @@ if __name__ == '__main__':
     # 重新转换为图片
     im_new = Image.fromarray(im_array)
     im_new.show()
+    im_new.save('1.png')
