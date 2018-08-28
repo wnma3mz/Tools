@@ -1,0 +1,25 @@
+{
+    "status": [
+        "ok"
+    ],
+    "registrar": [
+        "阿里云计算有限公司（万网）"
+    ],
+    "nameservers": [
+        "dns1.hichina.com",
+        "dns2.hichina.com"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "hc579811401-cn",
+            "name": "宜春学院高安校区",
+            "email": "ga_xp@sohu.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: gacycu.cn\nROID: 20050331s10001s04077635-cn\nDomain Status: ok\nRegistrant ID: hc579811401-cn\nRegistrant: 宜春学院高安校区\nRegistrant Contact Email: ga_xp@sohu.com\nSponsoring Registrar: 阿里云计算有限公司（万网）\nName Server: dns1.hichina.com\nName Server: dns2.hichina.com\nRegistration Time: 2005-03-31 14:50:58\nExpiration Time: 2021-03-31 14:50:58\nDNSSEC: unsigned\n"
+    ]
+}

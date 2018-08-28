@@ -1,0 +1,11 @@
+{
+    "contacts": {
+        "registrant": null,
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Out of this registry.\n"
+    ]
+}

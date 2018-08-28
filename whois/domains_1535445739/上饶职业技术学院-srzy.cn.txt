@@ -1,0 +1,25 @@
+{
+    "status": [
+        "clientTransferProhibited"
+    ],
+    "registrar": [
+        "厦门市中资源网络服务有限公司"
+    ],
+    "nameservers": [
+        "ns1.cnolnic.com",
+        "ns2.cnolnic.com"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "cns-10171276",
+            "name": "上饶职业技术学院",
+            "email": "www7616@126.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: srzy.cn\nROID: 20040323s10001s00992603-cn\nDomain Status: clientTransferProhibited\nRegistrant ID: cns-10171276\nRegistrant: 上饶职业技术学院\nRegistrant Contact Email: www7616@126.com\nSponsoring Registrar: 厦门市中资源网络服务有限公司\nName Server: ns1.cnolnic.com\nName Server: ns2.cnolnic.com\nRegistration Time: 2004-03-23 17:15:23\nExpiration Time: 2022-03-23 17:15:23\nDNSSEC: unsigned\n"
+    ]
+}

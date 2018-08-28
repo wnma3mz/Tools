@@ -1,0 +1,25 @@
+{
+    "status": [
+        "clientTransferProhibited"
+    ],
+    "registrar": [
+        "广东时代互联科技有限公司"
+    ],
+    "nameservers": [
+        "ns5010.01isp.com",
+        "ns5011.01isp.net"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "p43484527",
+            "name": "江西医学高等专科学校",
+            "email": "chenoranger11@sohu.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: jxyxgz.cn\nROID: 20131117s10001s68548724-cn\nDomain Status: clientTransferProhibited\nRegistrant ID: p43484527\nRegistrant: 江西医学高等专科学校\nRegistrant Contact Email: chenoranger11@sohu.com\nSponsoring Registrar: 广东时代互联科技有限公司\nName Server: ns5010.01isp.com\nName Server: ns5011.01isp.net\nRegistration Time: 2013-11-17 21:01:57\nExpiration Time: 2019-11-17 21:01:57\nDNSSEC: unsigned\n"
+    ]
+}

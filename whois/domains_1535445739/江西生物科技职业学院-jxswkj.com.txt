@@ -1,0 +1,36 @@
+{
+    "id": [
+        "100016607_DOMAIN_COM-VRSN"
+    ],
+    "status": [
+        "ok https://icann.org/epp#ok"
+    ],
+    "creation_date": [
+        "2003-07-03 09:33:06"
+    ],
+    "expiration_date": [
+        "2023-07-03 09:33:06"
+    ],
+    "updated_date": [
+        "2018-07-24 03:02:07"
+    ],
+    "registrar": [
+        "Beijing Innovative Linkage Technology Ltd. dba dns.com.cn"
+    ],
+    "whois_server": [
+        "whois.dns.com.cn"
+    ],
+    "nameservers": [
+        "NS1.DNS.COM.CN",
+        "NS2.DNS.COM.CN"
+    ],
+    "contacts": {
+        "registrant": null,
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "   Domain Name: JXSWKJ.COM\n   Registry Domain ID: 100016607_DOMAIN_COM-VRSN\n   Registrar WHOIS Server: whois.dns.com.cn\n   Registrar URL: http://www.dns.com.cn\n   Updated Date: 2018-07-24T03:02:07Z\n   Creation Date: 2003-07-03T09:33:06Z\n   Registry Expiry Date: 2023-07-03T09:33:06Z\n   Registrar: Beijing Innovative Linkage Technology Ltd. dba dns.com.cn\n   Registrar IANA ID: 633\n   Registrar Abuse Contact Email:\n   Registrar Abuse Contact Phone:\n   Domain Status: ok https://icann.org/epp#ok\n   Name Server: NS1.DNS.COM.CN\n   Name Server: NS2.DNS.COM.CN\n   DNSSEC: unsigned\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2018-08-28T08:42:22Z <<<\n\nFor more information on Whois status codes, please visit https://icann.org/epp\n\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\n\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic processes that are automated and high-volume to access or\nquery the Whois database except as reasonably necessary to register\ndomain names or modify existing registrations. VeriSign reserves the right\nto restrict your access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.\n\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\nRegistrars.\n"
+    ]
+}

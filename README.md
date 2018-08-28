@@ -23,3 +23,7 @@ ppt转pdf
 ### dice_pic/
 
 将给定图片转换为由六个像素组成的新图片
+
+### whois/
+
+查询当前文件夹下的`domains.txt`中的`url`，返回`whois`的查询结果

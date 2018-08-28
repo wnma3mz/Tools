@@ -1,0 +1,29 @@
+{
+    "status": [
+        "ok"
+    ],
+    "registrar": [
+        "上海美橙科技信息发展有限公司"
+    ],
+    "nameservers": [
+        "ns1.ezdnscenter.com",
+        "ns2.ezdnscenter.com",
+        "ns3.ezdnscenter.com",
+        "ns4.ezdnscenter.com",
+        "ns5.ezdnscenter.com",
+        "ns6.ezdnscenter.com"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "mcen10864645-dom",
+            "name": "李洁",
+            "email": "baomi4577@163.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: japt.com.cn\nROID: 20140410s10011s83746634-cn\nDomain Status: ok\nRegistrant ID: mcen10864645-dom\nRegistrant: 李洁\nRegistrant Contact Email: baomi4577@163.com\nSponsoring Registrar: 上海美橙科技信息发展有限公司\nName Server: ns1.ezdnscenter.com\nName Server: ns2.ezdnscenter.com\nName Server: ns3.ezdnscenter.com\nName Server: ns4.ezdnscenter.com\nName Server: ns5.ezdnscenter.com\nName Server: ns6.ezdnscenter.com\nRegistration Time: 2014-04-10 17:49:48\nExpiration Time: 2019-04-10 17:49:48\nDNSSEC: unsigned\n"
+    ]
+}

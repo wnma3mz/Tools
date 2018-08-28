@@ -1,0 +1,25 @@
+{
+    "status": [
+        "ok"
+    ],
+    "registrar": [
+        "成都西维数码科技有限公司"
+    ],
+    "nameservers": [
+        "ns5.myhostadmin.net",
+        "ns6.myhostadmin.net"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "cn48029720740036",
+            "name": "赣南卫生健康职业学院",
+            "email": "81900689@qq.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: gnhvc.cn\nROID: 20160503s10001s83081866-cn\nDomain Status: ok\nRegistrant ID: cn48029720740036\nRegistrant: 赣南卫生健康职业学院\nRegistrant Contact Email: 81900689@qq.com\nSponsoring Registrar: 成都西维数码科技有限公司\nName Server: ns5.myhostadmin.net\nName Server: ns6.myhostadmin.net\nRegistration Time: 2016-05-03 15:47:07\nExpiration Time: 2026-05-03 15:47:07\nDNSSEC: unsigned\n"
+    ]
+}

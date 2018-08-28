@@ -1,0 +1,26 @@
+{
+    "status": [
+        "clientDeleteProhibited",
+        "clientUpdateProhibited",
+        "clientTransferProhibited"
+    ],
+    "registrar": [
+        "北京中科三方网络技术有限公司*"
+    ],
+    "nameservers": [
+        "ntserver2.jvtc.jx.cn"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "c1272333772996",
+            "name": "九江职业技术学院",
+            "email": "hw831214@163.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: jvtc.jx.cn\nROID: 20021209s10041s00003398-cn\nDomain Status: clientDeleteProhibited\nDomain Status: clientUpdateProhibited\nDomain Status: clientTransferProhibited\nRegistrant ID: c1272333772996\nRegistrant: 九江职业技术学院\nRegistrant Contact Email: hw831214@163.com\nSponsoring Registrar: 北京中科三方网络技术有限公司*\nName Server: ntserver2.jvtc.jx.cn\nRegistration Time: 1999-11-10 00:00:00\nExpiration Time: 2020-11-10 00:00:00\nDNSSEC: unsigned\n"
+    ]
+}

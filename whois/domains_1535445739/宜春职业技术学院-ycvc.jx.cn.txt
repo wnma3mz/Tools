@@ -1,0 +1,25 @@
+{
+    "status": [
+        "ok"
+    ],
+    "registrar": [
+        "阿里云计算有限公司（万网）"
+    ],
+    "nameservers": [
+        "dns7.hichina.com",
+        "dns8.hichina.com"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "hs184340284-cn",
+            "name": "宜春职业技术学院（宜春市技术工人学校）",
+            "email": "yerlyd@163.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: ycvc.jx.cn\nROID: 20040109s10041s00190691-cn\nDomain Status: ok\nRegistrant ID: hs184340284-cn\nRegistrant: 宜春职业技术学院（宜春市技术工人学校）\nRegistrant Contact Email: yerlyd@163.com\nSponsoring Registrar: 阿里云计算有限公司（万网）\nName Server: dns7.hichina.com\nName Server: dns8.hichina.com\nRegistration Time: 2004-01-09 09:56:01\nExpiration Time: 2019-01-09 09:56:01\nDNSSEC: unsigned\n"
+    ]
+}

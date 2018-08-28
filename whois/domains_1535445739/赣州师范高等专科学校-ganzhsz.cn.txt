@@ -1,0 +1,25 @@
+{
+    "status": [
+        "ok"
+    ],
+    "registrar": [
+        "阿里云计算有限公司（万网）"
+    ],
+    "nameservers": [
+        "ns1.168dns.com",
+        "ns2.168dns.com"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "hc-217406540-cn",
+            "name": "赣州师范高等专科学校",
+            "email": "gzjxwxc@126.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: ganzhsz.cn\nROID: 20150415s10001s75603598-cn\nDomain Status: ok\nRegistrant ID: hc-217406540-cn\nRegistrant: 赣州师范高等专科学校\nRegistrant Contact Email: gzjxwxc@126.com\nSponsoring Registrar: 阿里云计算有限公司（万网）\nName Server: ns1.168dns.com\nName Server: ns2.168dns.com\nRegistration Time: 2015-04-15 11:49:23\nExpiration Time: 2020-04-15 11:49:23\nDNSSEC: unsigned\n"
+    ]
+}

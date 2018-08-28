@@ -1,0 +1,30 @@
+{
+    "status": [
+        "ALLOCATED PORTABLE"
+    ],
+    "updated_date": [
+        "2016-05-04 00:18:00",
+        "2010-11-15 00:31:55",
+        "2018-06-06 03:12:43"
+    ],
+    "emails": [
+        "anti-spam@ns.chinanet.cn.net",
+        "wzzx_2013@189.cn",
+        "56561125@qq.com"
+    ],
+    "contacts": {
+        "registrant": null,
+        "tech": {
+            "handle": "WW49-AP",
+            "name": "weifang wen"
+        },
+        "admin": {
+            "handle": "WW49-AP",
+            "name": "weifang wen"
+        },
+        "billing": null
+    },
+    "raw": [
+        "% [whois.apnic.net]\n% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html\n\n% Information related to '111.72.0.0 - 111.79.255.255'\n\n% Abuse contact for '111.72.0.0 - 111.79.255.255' is 'anti-spam@ns.chinanet.cn.net'\n\ninetnum:        111.72.0.0 - 111.79.255.255\nnetname:        CHINANET-JX\ndescr:          CHINANET JIANGXI PROVINCE NETWORK\ndescr:          China Telecom\ndescr:          No.31,jingrong street\ndescr:          Beijing 100032\ncountry:        CN\nstatus:         ALLOCATED PORTABLE\nadmin-c:        JN113-AP\ntech-c:         JN113-AP\nremarks:        --------------------------------------------------------\nremarks:        To report network abuse, please contact mnt-irt\nremarks:        For troubleshooting, please contact tech-c and admin-c\nremarks:        Report invalid contact via www.apnic.net/invalidcontact\nremarks:        --------------------------------------------------------\nremarks:        service provider\nmnt-by:         APNIC-HM\nmnt-lower:      MAINT-IP-WWF\nlast-modified:  2016-05-04T00:18:00Z\nsource:         APNIC\nmnt-irt:        IRT-CHINANET-CN\n\nirt:            IRT-CHINANET-CN\naddress:        No.31 ,jingrong street,beijing\naddress:        100032\ne-mail:         anti-spam@ns.chinanet.cn.net\nabuse-mailbox:  anti-spam@ns.chinanet.cn.net\nadmin-c:        CH93-AP\ntech-c:         CH93-AP\nauth:           # Filtered\nmnt-by:         MAINT-CHINANET\nlast-modified:  2010-11-15T00:31:55Z\nsource:         APNIC\n\nrole:           JXDCB NET\naddress:        Jiangxi telecom network operation support department\naddress:        No.2009, Beijing East Road , nanchangÃÂ¯ÃÂ¼ÃÂjiangxi province\ncountry:        CN\nphone:          +86 79186600000\ne-mail:         wzzx_2013@189.cn\nremarks:        send spam reports to wzzx_2013@189.cn\nremarks:        and abuse reports to wzzx_2013@189.cn\nremarks:        http://www.online.jx.cn\nadmin-c:        XY1-AP\ntech-c:         WZ1-CN\ntech-c:         WW49-AP\nnic-hdl:        JN113-AP\nnotify:         56561125@qq.com\nmnt-by:         MAINT-IP-WWF\nlast-modified:  2018-06-06T03:12:43Z\nsource:         APNIC\n\n% This query was served by the APNIC Whois Service version 1.88.15-46 (WHOIS-NODE1)\n\n\n"
+    ]
+}

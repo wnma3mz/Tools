@@ -1,0 +1,32 @@
+{
+    "status": [
+        "ALLOCATED PORTABLE"
+    ],
+    "updated_date": [
+        "2016-05-04 00:00:23",
+        "2017-10-23 05:59:13",
+        "2017-08-17 06:13:16",
+        "2008-09-04 07:54:49",
+        "2008-09-04 07:54:33"
+    ],
+    "emails": [
+        "hqs-ipabuse@chinaunicom.cn"
+    ],
+    "contacts": {
+        "registrant": {
+            "name": "ChinaUnicom Hostmaster"
+        },
+        "tech": {
+            "handle": "CH1302-AP",
+            "name": "ChinaUnicom Hostmaster"
+        },
+        "admin": {
+            "handle": "CH1302-AP",
+            "name": "ChinaUnicom Hostmaster"
+        },
+        "billing": null
+    },
+    "raw": [
+        "% [whois.apnic.net]\n% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html\n\n% Information related to '58.17.0.0 - 58.17.127.255'\n\n% Abuse contact for '58.17.0.0 - 58.17.127.255' is 'hqs-ipabuse@chinaunicom.cn'\n\ninetnum:        58.17.0.0 - 58.17.127.255\nnetname:        UNICOM-JX\ndescr:          China Unicom Jiangxi province network\ndescr:          China Unicom\ncountry:        CN\nadmin-c:        CH1302-AP\ntech-c:         CH1302-AP\nmnt-by:         APNIC-HM\nmnt-lower:      MAINT-CNCGROUP-JX\nmnt-routes:     MAINT-CNCGROUP-RR\nstatus:         ALLOCATED PORTABLE\nremarks:        --------------------------------------------------------\nremarks:        To report network abuse, please contact mnt-irt\nremarks:        For troubleshooting, please contact tech-c and admin-c\nremarks:        Report invalid contact via www.apnic.net/invalidcontact\nremarks:        --------------------------------------------------------\nmnt-irt:        IRT-CU-CN\nlast-modified:  2016-05-04T00:00:23Z\nsource:         APNIC\n\nirt:            IRT-CU-CN\naddress:        No.21,Financial Street\naddress:        Beijing,100033\naddress:        P.R.China\ne-mail:         hqs-ipabuse@chinaunicom.cn\nabuse-mailbox:  hqs-ipabuse@chinaunicom.cn\nadmin-c:        CH1302-AP\ntech-c:         CH1302-AP\nauth:           # Filtered\nmnt-by:         MAINT-CNCGROUP\nlast-modified:  2017-10-23T05:59:13Z\nsource:         APNIC\n\nperson:         ChinaUnicom Hostmaster\nnic-hdl:        CH1302-AP\ne-mail:         hqs-ipabuse@chinaunicom.cn\naddress:        No.21,Jin-Rong Street\naddress:        Beijing,100033\naddress:        P.R.China\nphone:          +86-10-66259764\nfax-no:         +86-10-66259764\ncountry:        CN\nmnt-by:         MAINT-CNCGROUP\nlast-modified:  2017-08-17T06:13:16Z\nsource:         APNIC\n\n% Information related to '58.17.0.0/17AS4837'\n\nroute:          58.17.0.0/17\ndescr:          CNC Group CHINA169 Jiangxi Province Network\ncountry:        CN\norigin:         AS4837\nmnt-by:         MAINT-CNCGROUP-RR\nlast-modified:  2008-09-04T07:54:49Z\nsource:         APNIC\n\n% Information related to '58.17.0.0/17AS9929'\n\nroute:          58.17.0.0/17\ndescr:          CNCGroup JiangXi province network\ncountry:        CN\norigin:         AS9929\nmnt-by:         MAINT-CNCGROUP-RR\nlast-modified:  2008-09-04T07:54:33Z\nsource:         APNIC\n\n% This query was served by the APNIC Whois Service version 1.88.15-46 (WHOIS-NODE3)\n\n\n"
+    ]
+}

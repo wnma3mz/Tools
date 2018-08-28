@@ -1,0 +1,25 @@
+{
+    "status": [
+        "ok"
+    ],
+    "registrar": [
+        "北京新网互联科技有限公司"
+    ],
+    "nameservers": [
+        "ns1.mysuperdns.com",
+        "ns2.mysuperdns.com"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "ctdsg9piytq91rk",
+            "name": "南昌理工学院",
+            "email": "191166627@qq.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: gqkj.com.cn\nROID: 20120414s10011s70662525-cn\nDomain Status: ok\nRegistrant ID: ctdsg9piytq91rk\nRegistrant: 南昌理工学院\nRegistrant Contact Email: 191166627@qq.com\nSponsoring Registrar: 北京新网互联科技有限公司\nName Server: ns1.mysuperdns.com\nName Server: ns2.mysuperdns.com\nRegistration Time: 2012-04-14 20:59:04\nExpiration Time: 2019-04-14 20:59:04\nDNSSEC: unsigned\n"
+    ]
+}

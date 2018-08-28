@@ -1,0 +1,32 @@
+{
+    "status": [
+        "ALLOCATED NON-PORTABLE"
+    ],
+    "updated_date": [
+        "2008-09-04 06:50:40",
+        "2018-06-06 03:12:43",
+        "2014-02-27 03:37:38"
+    ],
+    "emails": [
+        "anti-spam@ns.chinanet.cn.net",
+        "wzzx_2013@189.cn",
+        "56561125@qq.com"
+    ],
+    "contacts": {
+        "registrant": {
+            "name": "Chinanet Hostmaster"
+        },
+        "tech": {
+            "handle": "WW49-AP",
+            "name": "weifang wen"
+        },
+        "admin": {
+            "handle": "CH93-AP",
+            "name": "Chinanet Hostmaster"
+        },
+        "billing": null
+    },
+    "raw": [
+        "% [whois.apnic.net]\n% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html\n\n% Information related to '218.64.0.0 - 218.65.127.255'\n\n% Abuse contact for '218.64.0.0 - 218.65.127.255' is 'anti-spam@ns.chinanet.cn.net'\n\ninetnum:        218.64.0.0 - 218.65.127.255\nnetname:        CHINANET-JX\ncountry:        CN\ndescr:          CHINANET jiangxi province network\ndescr:          China Telecom\ndescr:          No.31,jingrong street\ndescr:          Beijing 100032\nadmin-c:        CH93-AP\ntech-c:         JN113-AP\nmnt-by:         MAINT-CHINANET\nmnt-lower:      MAINT-IP-WWF\nstatus:         ALLOCATED NON-PORTABLE\nlast-modified:  2008-09-04T06:50:40Z\nsource:         APNIC\n\nrole:           JXDCB NET\naddress:        Jiangxi telecom network operation support department\naddress:        No.2009, Beijing East Road , nanchangÃÂ¯ÃÂ¼ÃÂjiangxi province\ncountry:        CN\nphone:          +86 79186600000\ne-mail:         wzzx_2013@189.cn\nremarks:        send spam reports to wzzx_2013@189.cn\nremarks:        and abuse reports to wzzx_2013@189.cn\nremarks:        http://www.online.jx.cn\nadmin-c:        XY1-AP\ntech-c:         WZ1-CN\ntech-c:         WW49-AP\nnic-hdl:        JN113-AP\nnotify:         56561125@qq.com\nmnt-by:         MAINT-IP-WWF\nlast-modified:  2018-06-06T03:12:43Z\nsource:         APNIC\n\nperson:         Chinanet Hostmaster\nnic-hdl:        CH93-AP\ne-mail:         anti-spam@ns.chinanet.cn.net\naddress:        No.31 ,jingrong street,beijing\naddress:        100032\nphone:          +86-10-58501724\nfax-no:         +86-10-58501724\ncountry:        CN\nmnt-by:         MAINT-CHINANET\nlast-modified:  2014-02-27T03:37:38Z\nsource:         APNIC\n\n% This query was served by the APNIC Whois Service version 1.88.15-46 (WHOIS-NODE1)\n\n\n"
+    ]
+}

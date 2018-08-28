@@ -1,0 +1,25 @@
+{
+    "status": [
+        "ok"
+    ],
+    "registrar": [
+        "阿里云计算有限公司（万网）"
+    ],
+    "nameservers": [
+        "dns7.hichina.com",
+        "dns8.hichina.com"
+    ],
+    "contacts": {
+        "registrant": {
+            "handle": "hc960167336-cn",
+            "name": "江西司法警官职业学院",
+            "email": "idc@nc1000.com"
+        },
+        "tech": null,
+        "admin": null,
+        "billing": null
+    },
+    "raw": [
+        "Domain Name: jxsfjy.cn\nROID: 20050429s10001s10112467-cn\nDomain Status: ok\nRegistrant ID: hc960167336-cn\nRegistrant: 江西司法警官职业学院\nRegistrant Contact Email: idc@nc1000.com\nSponsoring Registrar: 阿里云计算有限公司（万网）\nName Server: dns7.hichina.com\nName Server: dns8.hichina.com\nRegistration Time: 2005-04-29 15:37:41\nExpiration Time: 2021-04-29 15:37:41\nDNSSEC: unsigned\n"
+    ]
+}
