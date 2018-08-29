@@ -27,3 +27,7 @@ ppt转pdf
 ### whois/
 
 查询当前文件夹下的`domains.txt`中的`url`，返回`whois`的查询结果
+
+### find_local_mac/
+
+查找本机`Mac`地址，并根据`wigle.net`找到对应的经纬度。
