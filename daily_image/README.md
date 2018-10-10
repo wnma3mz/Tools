@@ -16,7 +16,7 @@ PIL
 python generate_image.py
 ```
 
-# 致谢
+### 致谢
 
 1. [@yijiu](https: // github.com / renyijiu)的idea。
 2. [一言·古诗词 API](https: // github.com / xenv / gushici)，图中诗词来源此项目
@@ -24,4 +24,7 @@ python generate_image.py
 4. PIL画图工具
 5. kaiti.ttf字体提供
 
-![example](https: // raw.githubusercontent.com / wnma3mz / Tools / master / daily_image / 1539180164.png)
+### 样例
+
+![example](https://raw.githubusercontent.com/wnma3mz/Tools/master/daily_image/1539180164.png)
+
