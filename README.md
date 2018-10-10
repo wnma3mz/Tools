@@ -55,3 +55,7 @@ ppt转pdf
 ### find_linbary/
 
 寻找指定目录下的调用的python库
+
+### daily_image/
+
+生成一张日历图（配有诗词、农历、已过天数）
