@@ -26,5 +26,5 @@ python generate_image.py
 
 ### 样例
 
-![example](https://raw.githubusercontent.com/wnma3mz/Tools/master/daily_image/1539180164.png)
+![example](https://raw.githubusercontent.com/wnma3mz/Tools/master/daily_image/1539256829.png)
 

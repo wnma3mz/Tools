@@ -13,13 +13,13 @@ import requests
 def get_weekday():
     date = datetime.datetime.now()
     d = {
-        '0': u'周日',
-        '1': u'周一',
-        '2': u'周二',
-        '3': u'周三',
-        '4': u'周四',
-        '5': u'周五',
-        '6': u'周六',
+        '0': u'周一',
+        '1': u'周二',
+        '2': u'周三',
+        '3': u'周四',
+        '4': u'周五',
+        '5': u'周六',
+        '6': u'周日',
     }
     return d[str(date.weekday())]
 
@@ -41,8 +41,16 @@ def get_center_x(word_num, font_size):
     return (w - font_size * word_num) / 2
 
 
+def get_year_days(year):
+    if ((year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)):  # 判断是否是闰年
+        return 366
+    else:
+        return 365
+
+
 def add_date_words():
     # 日期
+    now_year = datetime.datetime.now().year
     today = time.strftime("%Y.%m.%d")
     # 周几
     weekday = get_weekday()
@@ -57,10 +65,10 @@ def add_date_words():
     ln = Lunar()
     lc_day = ln.gz_year() + '年' + ' ' + ln.ln_date_str()[2:]
     # 已过多少天
-    d1 = datetime.datetime.strptime('2018.01.01', '%Y.%m.%d')
+    d1 = datetime.datetime.strptime('{}.01.01'.format(now_year), '%Y.%m.%d')
     d2 = datetime.datetime.strptime(today, "%Y.%m.%d")
     delta = (d1 - d2).days
-    percent = round(-delta / 365 * 100, 2)
+    percent = round(-delta / get_year_days(now_year) * 100, 2)
     delta_days = '第{}天，进度已消耗{}%'.format(-delta, percent)
 
     font_size = 40
