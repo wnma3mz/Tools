@@ -59,3 +59,7 @@ ppt转pdf
 ### daily_image/
 
 生成一张日历图（配有诗词、农历、已过天数）
+
+### Ubuntu_install/
+
+重装Ubuntu的Note
