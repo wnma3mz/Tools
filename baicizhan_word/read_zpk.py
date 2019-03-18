@@ -79,4 +79,4 @@ if __name__ == '__main__':
                     os.path.join(zpack_path, word_zpk))]
 
     with open('topic_id_list.pkl', 'wb') as f:
-        pickle.dumps(topic_id_list, f)
+        pickle.dump(topic_id_list, f)
