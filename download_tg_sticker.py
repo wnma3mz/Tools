@@ -1,3 +1,6 @@
+# coding: utf-8
+# from https://github.com/Cartmanishere/telegram-sticker-downloader/blob/master/main.py
+# 需连接外网
 import requests
 import json
 import urllib.parse
