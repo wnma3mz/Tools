@@ -1,7 +1,7 @@
 # coding: utf-8
+import matplotlib.pyplot as plt
 
-# matplotlib画图用, import cnames; cn = cnames.cnames;
-
+# matplotlib画图用
 cnames = {
 'aliceblue':            '#F0F8FF',
 'antiquewhite':         '#FAEBD7',
@@ -144,3 +144,58 @@ cnames = {
 'yellow':               '#FFFF00',
 'yellowgreen':          '#9ACD32'}
 
+
+
+if __name__ == '__main__':
+    # 动态展示
+    # plt.ion()
+    # plt.pause(0.1)
+    # plt.ioff()
+
+    # fig, axs = plt.subplots(3, 2) # 绘制3x2子图
+
+    plt.cla()  # 清空画布
+    plt.figure(figsize=(10, 10), dpi=100)  # 画布大小，分辨率
+    plt.plot(x, y, 'o-', label=label)  # 绘制直线图, 并标注每点属性，与对应标签
+    plt.scatter(x, y)  # 绘制散点图
+    plt.bar(x, y, width=width, color='#d62728', alpha=0.5,
+            label=label_[1])  # 绘制柱状图
+
+    plt.text(xt, yt, text, ha='center', va='bottom', fontsize=7)  # 图中绘制文本
+    plt.annotate(text,
+                 xy=(x, y),
+                 xytext=(6 * 0.9, p[6] * 0.9),
+                 arrowprops=dict(arrowstyle="->",
+                                 connectionstyle="arc3,rad=.2"))  # 图中注释文本
+    plt.title(title)  # 画布标题
+    plt.xlabel(xlabel_title)  # x轴标题
+
+    plt.legend(loc=2, bbox_to_anchor=(1.05, 1.0), borderaxespad=0.)  # 输出图例等
+    plt.legend("best")
+
+    plt.xticks(rotation=90)  # x轴上坐标旋转90度
+    plt.xlim(min_x, max_x)  # 限定x坐标最小值与最大值
+
+    plt.tight_layout()  # 自适应画布
+    # plt.gca().invert_xaxis()  # 逆序横坐标
+
+    plt.show()  # 显示图片
+    plt.savefig('count_gender.png')  # 保存图片
+
+    # 多子图，共享x轴，双y轴
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.plot(x, y1, 'v-', label='1', color='royalblue')
+    ax.plot(x, y2, 'x-', label='2', color='tomato')
+
+    ax2 = ax.twinx()
+    ax2.plot(x, y3, 'o-', label='3', color='orange')
+    ax2.set_ylim(30, 100)
+    # ax2.legend(loc=1)
+
+    ax.set_xlabel("压力(GPa)")
+    # ax.set_ylabel(r"bcc和hcp原子的结构含量(%)")
+    # ax2.set_ylabel(r"fcc和结晶原子的结构含量(%)")
+    # plt.xlabel(r"压力(GPa)")
+    # plt.ylabel(r"结构含量(%)")
+    fig.legend(loc=1, bbox_to_anchor=(1, 1), bbox_transform=ax.transAxes)
