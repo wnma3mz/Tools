@@ -23,6 +23,12 @@ adb shell input keyevent 4
 adb pull /sdcard//DICM1.png .
 # 截图
 adb shell screencap -p /sdcard/xx.png
+# 截图并发送至windows端
+adb shell screencap -p /sdcard/screenshot.png; adb pull /sdcard/screenshot.png .
+# 获取页面布局（比截图高效）
+adb shell uiautomator dump /sdcard/1.xml; adb pull /sdcard/1.xml .
+# 长按
+adb shell input touchscreen swipe {} {} {} {} 2000
 """
 # 使用多线程加快点击某点的速度
 def run_adb_shell(num, index):
