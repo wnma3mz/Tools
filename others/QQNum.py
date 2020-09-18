@@ -3,9 +3,6 @@
 import requests
 import pickle
 import re
-from cnradical import Radical, RunOption
-
-
 class GetQQNum(object):
     """获取所有好友的QQ号并保存至本地"""
 
@@ -112,8 +109,9 @@ class GetQQNum(object):
 
         return mem_lst
 
+if __name__ == "__main__":
+    
 
-if __name__ == '__main__':
     cookie = ""
     bkn = ""
     # mem_lst = GetQQNum(cookie, bkn).get_king_names()
@@ -128,8 +126,3 @@ if __name__ == '__main__':
     s = requests.get(url, headers=headers)
     s.encoding = 'utf8'
     member_lst = s.json()['MemberList']
-    mem_lst = []
-    for friend in member_lst:
-        string = radical.trans_str(friend['NickName'])
-        if "金" in string or "钅" in string:
-            mem_lst.append(friend['NickName'])

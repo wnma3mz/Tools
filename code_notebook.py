@@ -15,3 +15,9 @@ with sqlite3.connect(dbpath) as conn:
     cursor = conn.cursor()
     cursor.execute(sql_command)
     topic_id_list = cursor.fetchall()
+
+# 拼音
+from cnradical import Radical, RunOption
+# 拼音转换为汉字
+radical = Radical(RunOption.Radical)
+string = radical.trans_str('ceshi')
