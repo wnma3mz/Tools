@@ -9,12 +9,13 @@ class PPT2PDF(object):
         self.powerpoint = comtypes.client.CreateObject(
             "Powerpoint.Application", dynamic=True)
         self.powerpoint.Visible = 1
+        self.end_tuple = (".ppt", ".pptx", ".PPT", ".PPTX")
 
     def run(self):
         try:
             self.walkdir(self.rootDir)
         finally:
-            self.powerpoint.quit()
+            self.powerpoint.Quit()
 
     def walkdir(self, dir_):
         for filename in os.listdir(dir_):
@@ -25,11 +26,18 @@ class PPT2PDF(object):
             else:
                 self.covert_files(pathname)
 
+    def _replace_name(self, name):
+        for ends in self.end_tuple:
+            name = name.replace(ends, '.pdf')
+        return name
+
     def covert_files(self, f):
-        if f.endswith((".ppt", ".pptx", ".PPT", ".PPTX")):
+        if f.endswith(self.end_tuple):
             fullpath = os.path.join(f)
-            if not os.path.exists(fullpath + '.pdf'):
-                self.ppt_to_pdf(fullpath, fullpath + '.pdf')
+            head, fname = os.path.split(fullpath)
+            save_path = os.path.join(head, self._replace_name(fname))
+            if not os.path.exists(save_path):
+                self.ppt_to_pdf(fullpath, save_path)
 
     def convert_files_folder(self, folder):
         files = os.listdir(folder)
@@ -41,6 +49,7 @@ class PPT2PDF(object):
             deck = self.powerpoint.Presentations.Open(inputFileName)
             deck.SaveAs(outputFileName, formatType)
             deck.Close()
+            print('File "{}" transfer Complete'.format(inputFileName))
         except Exception as e:
             print(e)
             print("%s conver failed" % inputFileName)
